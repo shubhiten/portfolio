@@ -7,8 +7,9 @@ export const DATA = {
   url: "www.linkedin.com/in/shubhiijainn",
   location: "Jabalpur, MP",
   locationLink: "https://www.google.com/maps/place/Jabalpur,+Madhya+Pradesh",
-  description:"My idea of fun? Opening a new repo and diving in blind."
-  summary:"I’m a second-year Computer Science student and a current fellow at Dora DAO’s Girls Who Yap program. I love turning ideas into real, useful tech—especially when it makes life a little easier (or cooler).My projects reflect that energy: TaskNest, a clean and simple React ToDo app for organizing your chaos; Clocast, an AI-based clothing recommender that helps you decide what to wear when your closet says “nothing to wear”; and HippoType, a fun typing speed tester that gives you instant feedback while you race the clock.I’m always excited to learn new things, write better code, and collaborate with people who want to build tech that actually makes a difference—while having a little fun along the way."
+  description: "My idea of fun? Opening a new repo and diving in blind.",
+  summary:
+    "I’m a second-year Computer Science student and a current fellow at Dora DAO’s Girls Who Yap program. I love turning ideas into real, useful tech—especially when it makes life a little easier (or cooler). My projects reflect that energy: TaskNest, a clean and simple React ToDo app for organizing your chaos; Clocast, an AI-based clothing recommender that helps you decide what to wear when your closet says “nothing to wear”; and HippoType, a fun typing speed tester that gives you instant feedback while you race the clock. I’m always excited to learn new things, write better code, and collaborate with people who want to build tech that actually makes a difference—while having a little fun along the way.",
   avatarUrl: "/me.png",
   skills: [
     "C++",
@@ -18,23 +19,16 @@ export const DATA = {
     "SQL",
     "HTML/CSS",
     "React.js",
-    "Flask",
-    "GSAP",
-    "Tailwind CSS",
-    "Git",
     "GitHub",
     "VS Code",
     "Packet Tracer",
     "MySQL",
-    "Firebase",
-    "Google Cloud Platform (GCP)",
     "Data Structures Algorithms",
     "Object-Oriented Programming",
-    "REST APIs",
-  ],
+     ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/#projects", icon: NotebookIcon, label: "Projects" }, // Custom link to projects section
+    { href: "/#projects", icon: NotebookIcon, label: "Projects" },
   ],
   contact: {
     email: "candidshubhi@gmail.com",
@@ -48,7 +42,7 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "www.linkedin.com/in/shubhiijainn"
+        url: "www.linkedin.com/in/shubhiijainn",
         icon: Icons.linkedin,
         navbar: true,
       },
@@ -104,13 +98,13 @@ export const DATA = {
       description:
         "Elected to co-lead a 1000+ member chapter, planning a curriculum of 10+ workshops and 2 hackathons for the 2024-25 academic year to enhance peer skills in Flutter and Google Cloud.",
     },
-  
   ],
   education: [
     {
       school: "Gyan Ganga Institute of Technology and Sciences",
       href: "https://ggits.org",
-      degree: "Bachelor of Technology in Computer Science & Business Systems (CSBS) - Anticipated CGPA: 8.5/10.0",
+      degree:
+        "Bachelor of Technology in Computer Science & Business Systems (CSBS) - Anticipated CGPA: 8.5/10.0",
       logoUrl: "/ggits.png",
       start: "2023",
       end: "2027",
@@ -122,9 +116,9 @@ export const DATA = {
       logoUrl: "/cisco.png",
       start: "Mar 2024",
       end: "Present",
-      description: "Completed advanced modules covering network defense, cryptography, and endpoint security in C++ and Python, achieving a 95% average score on all assessments. Designed and deployed secure network topologies in Packet Tracer, successfully defending against 5+ simulated cyber-attack scenarios (e.g., DDoS, malware)."
+      description:
+        "Completed advanced modules covering network defense, cryptography, and endpoint security in C++ and Python, achieving a 95% average score on all assessments. Designed and deployed secure network topologies in Packet Tracer, successfully defending against 5+ simulated cyber-attack scenarios (e.g., DDoS, malware).",
     },
-    
   ],
   projects: [
     {
@@ -134,11 +128,7 @@ export const DATA = {
       active: true,
       description:
         "Architected a responsive ToDo application with full CRUD functionality and persistent state management using browser local storage. Engineered a minimalist UI with Tailwind CSS that improved task management efficiency by implementing keyboard shortcuts and a drag-and-drop interface for prioritization.",
-      technologies: [
-        "React.js",
-        "JavaScript",
-        "Tailwind CSS",
-      ],
+      technologies: ["React.js", "JavaScript", "Tailwind CSS"],
       links: [
         {
           type: "Source",
@@ -156,12 +146,7 @@ export const DATA = {
       active: true,
       description:
         "Developed a smart assistant that generates personalized outfit recommendations by integrating real-time weather data and user mood inputs. Built a RESTful API with Flask to process data from two external APIs, delivering dynamic clothing prompts via the OpenAI API.",
-      technologies: [
-        "Python",
-        "Flask",
-        "OpenAI API",
-        "Weather API",
-      ],
+      technologies: ["Python", "Flask", "OpenAI API", "Weather API"],
       links: [
         {
           type: "Source",
@@ -179,11 +164,7 @@ export const DATA = {
       active: true,
       description:
         "Created a web-based typing test that calculates Words Per Minute (WPM) and accuracy with over 99% precision against a dynamic quote library. Enhanced skill development by implementing instant visual feedback on incorrect keystrokes and tracking WPM improvement over time.",
-      technologies: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-      ],
+      technologies: ["HTML", "CSS", "JavaScript"],
       links: [
         {
           type: "Source",
@@ -195,7 +176,5 @@ export const DATA = {
       video: "",
     },
   ],
-  hackathons: [
-    // The provided resume does not contain information about hackathons.
-  ],
-} as const;
+  hackathons: [],
+} as const;
